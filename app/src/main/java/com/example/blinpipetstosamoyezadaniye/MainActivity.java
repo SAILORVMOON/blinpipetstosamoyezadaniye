@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
     Button btnActTwo;
-    public static String towowfnames, towowsnames, towowlnames;
+    public static String towowfnames, towowsnames;
     public static int res1 = 0;
 
     @Override
@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
                 EditText edits = (EditText) findViewById(R.id.sname);
                 towowsnames = edits.getText().toString();
 
-                if(towowfnames.equals("") && towowsnames.equals("")){
+                if(towowfnames.equals("") || towowsnames.equals("")){
                     res1= 0;
                 }else{
-                    res1= 1;
+                    res1=1;
                 }
 
                 Intent intent = new Intent(this, MainActivity2.class);

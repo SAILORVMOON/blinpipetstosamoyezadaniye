@@ -13,13 +13,13 @@ import android.widget.TextView;
 
 public class MainActivity3 extends AppCompatActivity {
 
-    ImageView movegood, movebad;
+    ImageView movegood;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        movegood = findViewById(R.id.movegood);
+        movegood = findViewById(R.id.movegood3);
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.trans);
         if(MainActivity2.res2 == 1){
             movegood.setVisibility(View.VISIBLE);

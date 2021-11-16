@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:text="вы отдавать партия своя \nфамилия и имя и получать бонус"
+        android:text="вы отдавать партия своя фамилия и имя и получать бонус"
         app:layout_constraintBottom_toTopOf="@+id/fname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

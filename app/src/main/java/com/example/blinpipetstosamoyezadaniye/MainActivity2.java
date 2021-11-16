@@ -17,8 +17,7 @@ import android.view.animation.AnimationUtils;
 public class MainActivity2 extends AppCompatActivity implements OnClickListener {
 
     Button btnActThree;
-    TextView wowname;
-    ImageView movegood, movebad;
+    ImageView movegood;
     public static int res2 = 0;
     boolean check = false;
 
@@ -28,15 +27,7 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
         setContentView(R.layout.activity_main2);
         btnActThree = findViewById(R.id.btnActThree);
         btnActThree.setOnClickListener(this);
-        wowname = findViewById(R.id.name1);
-        wowname.setText(MainActivity.towowfnames);
-
-        wowname = findViewById(R.id.name2);
-        wowname.setText(MainActivity.towowsnames);
-
-        wowname = findViewById(R.id.name3);
-        wowname.setText(MainActivity.towowlnames);
-        movegood = findViewById(R.id.movegood);
+        movegood = findViewById(R.id.movegood2);
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.trans);
         if(MainActivity.res1 == 1){
             movegood.setVisibility(View.VISIBLE);
