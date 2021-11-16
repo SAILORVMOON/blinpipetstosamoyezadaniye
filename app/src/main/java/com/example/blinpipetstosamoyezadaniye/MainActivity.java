@@ -8,14 +8,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
     Button btnActTwo;
-    EditText towowfnamee, towowsnamee, towowlnamee;
     public static String towowfnames, towowsnames, towowlnames;
+    public static int res1 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,21 +27,22 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     public void buttona(View view){
         Toast.makeText(this, "bebraknopkaa", Toast.LENGTH_LONG).show();
     }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnActTwo:
-                towowfnamee = findViewById(R.id.fname);
                 EditText editf = (EditText) findViewById(R.id.fname);
                 towowfnames = editf.getText().toString();
 
-                towowsnamee = findViewById(R.id.fname);
                 EditText edits = (EditText) findViewById(R.id.sname);
                 towowsnames = edits.getText().toString();
 
-                towowlnamee = findViewById(R.id.fname);
-                EditText editl = (EditText) findViewById(R.id.lname);
-                towowlnames = editl.getText().toString();
+                if(towowfnames.equals("") && towowsnames.equals("")){
+                    res1= 0;
+                }else{
+                    res1= 1;
+                }
 
                 Intent intent = new Intent(this, MainActivity2.class);
                 startActivity(intent);
