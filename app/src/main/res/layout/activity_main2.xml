@@ -15,17 +15,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" />
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
-        android:id="@+id/buttonbebra222222"
+        android:id="@+id/bebrapartia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonbebra222222"
-        android:text="buttonbebra222222"
+        android:onClick="bebrapartia"
+        android:text="получить бебру от партии"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1" />
@@ -81,7 +80,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:textAlignment="center"
+        android:text="вы называть имя этот великий правитель и вас не ждать расстрел"
         app:layout_constraintBottom_toTopOf="@+id/xina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -24,10 +24,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         btnActTwo.setOnClickListener(this);
     }
 
-    public void buttona(View view){
-        Toast.makeText(this, "bebraknopkaa", Toast.LENGTH_LONG).show();
-    }
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

@@ -7,116 +7,15 @@
     tools:context=".MainActivity3">
 
 
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints">
 
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="MissingConstraints">
-
-                <CheckBox
-                    android:id="@+id/checkBoxa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:ignore="MissingConstraints"
-                    android:layout_weight="1"/>
-
-                <ImageView
-                    android:id="@+id/aquakonosuba"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/aquakonosuba" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="MissingConstraints">
-
-                <CheckBox
-                    android:id="@+id/checkBoxb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-                <ImageView
-                    android:id="@+id/genshin"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/genshin" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="MissingConstraints">
-
-                <CheckBox
-                    android:id="@+id/checkBoxc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="MissingConstraints"
-                    android:layout_weight="1" />
-                <ImageView
-                    android:id="@+id/mao"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/mao" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="MissingConstraints">
-
-                <CheckBox
-                    android:id="@+id/checkBoxd"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="MissingConstraints"
-                    android:layout_weight="1" />
-                <ImageView
-                    android:id="@+id/samsa"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/samsa" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="MissingConstraints">
-
-                <CheckBox
-                    android:id="@+id/checkBoxe"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="MissingConstraints"
-                    android:layout_weight="1" />
-                <ImageView
-                    android:id="@+id/trump"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/trump" />
-            </LinearLayout>
-
+    </LinearLayout>
 
 
         <ImageView
@@ -142,6 +41,139 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.4"
             app:srcCompat="@drawable/badway" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/trump"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/trump" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/samsa"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/samsa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-14dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/mao"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/mao" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/genshin"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/genshin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/aquakonosuba"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/aquakonosuba" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ваша указать какие картинки вы любить"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
             movebad.setVisibility(View.INVISIBLE);
         }
     }
-    public void buttonbebra222222(View view){
+    public void bebrapartia(View view){
         if(check==false) {
             Toast.makeText(this, "нажмать ещё раз и получать смачную бебрятину от партии", Toast.LENGTH_LONG).show();
             check = true;
