@@ -17,7 +17,7 @@ import android.view.animation.AnimationUtils;
 public class MainActivity2 extends AppCompatActivity implements OnClickListener {
 
     Button btnActThree;
-    ImageView movegood;
+    ImageView movegood, movebad;
     public static int res2 = 0;
     boolean check = false;
 
@@ -28,11 +28,16 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
         btnActThree = findViewById(R.id.btnActThree);
         btnActThree.setOnClickListener(this);
         movegood = findViewById(R.id.movegood2);
+        movebad = findViewById(R.id.movebad2);
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.trans);
         if(MainActivity.res1 == 1){
             movegood.setVisibility(View.VISIBLE);
             movegood.startAnimation(anim);
             movegood.setVisibility(View.INVISIBLE);
+        }else{
+            movebad.setVisibility(View.VISIBLE);
+            movebad.startAnimation(anim);
+            movebad.setVisibility(View.INVISIBLE);
         }
     }
     public void buttonbebra222222(View view){
