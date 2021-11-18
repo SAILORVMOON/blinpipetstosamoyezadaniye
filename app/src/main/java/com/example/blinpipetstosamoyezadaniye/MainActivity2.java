@@ -60,8 +60,6 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
                 if(xinas.equals("John Xina")) {
                     res2 = 1;
                 }
-
-
                 Intent intent = new Intent(this, MainActivity3.class);
                 startActivity(intent);
                 break;
