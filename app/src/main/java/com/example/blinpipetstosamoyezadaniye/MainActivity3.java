@@ -44,11 +44,11 @@ public class MainActivity3 extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnActFour:
-                CheckBox boxa = (CheckBox) findViewById(R.id.checkBoxa);
-                CheckBox boxb = (CheckBox) findViewById(R.id.checkBoxb);
-                CheckBox boxc = (CheckBox) findViewById(R.id.checkBoxc);
-                CheckBox boxd = (CheckBox) findViewById(R.id.checkBoxd);
-                CheckBox boxe = (CheckBox) findViewById(R.id.checkBoxe);
+                CheckBox boxa = findViewById(R.id.checkBoxa);
+                CheckBox boxb = findViewById(R.id.checkBoxb);
+                CheckBox boxc = findViewById(R.id.checkBoxc);
+                CheckBox boxd = findViewById(R.id.checkBoxd);
+                CheckBox boxe = findViewById(R.id.checkBoxe);
                 if(!(boxa.isChecked()) && boxb.isChecked() && boxc.isChecked() && !(boxd.isChecked()) && !(boxe.isChecked())){
                     res3 = 2;
                 }else if(!(boxa.isChecked()) && (boxb.isChecked() || boxc.isChecked()) && !(boxd.isChecked()) && !(boxe.isChecked())){

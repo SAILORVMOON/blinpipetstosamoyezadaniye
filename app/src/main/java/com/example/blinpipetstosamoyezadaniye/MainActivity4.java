@@ -16,15 +16,12 @@ public class MainActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main4);
         movegood = findViewById(R.id.movegood4);
         movegood2 = findViewById(R.id.movegood42);
         movebad = findViewById(R.id.movebad4);
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.trans);
-        setContentView(R.layout.activity_main4);
         if(MainActivity3.res3 == 2){
-            movegood.setVisibility(View.VISIBLE);
-            movegood.startAnimation(anim);
-            movegood.setVisibility(View.INVISIBLE);
             movegood2.setVisibility(View.VISIBLE);
             movegood2.startAnimation(anim);
             movegood2.setVisibility(View.INVISIBLE);
