@@ -1,0 +1,12 @@
+com/example/blinpipetstosamoyezadaniye/MainActivity2.java
+ com.example.blinpipetstosamoyezadaniye.MainActivity2
+com/example/blinpipetstosamoyezadaniye/BuildConfig.java
+ com.example.blinpipetstosamoyezadaniye.BuildConfig
+com/example/blinpipetstosamoyezadaniye/MainActivity.java
+ com.example.blinpipetstosamoyezadaniye.MainActivity
+com/example/blinpipetstosamoyezadaniye/MainActivity3.java
+ com.example.blinpipetstosamoyezadaniye.MainActivity3
+com/example/blinpipetstosamoyezadaniye/Final.java
+ com.example.blinpipetstosamoyezadaniye.Final
+com/example/blinpipetstosamoyezadaniye/MainActivity4.java
+ com.example.blinpipetstosamoyezadaniye.MainActivity4
