@@ -25,7 +25,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/verygoodend"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        />
     <ImageView
         android:id="@+id/veryverybadway"
         android:layout_width="match_parent"
@@ -61,20 +62,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:visibility="gone"
-        app:layout_constraintVertical_bias="0.9" />
+        android:onClick="butyes"
+        app:layout_constraintVertical_bias="0.9"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/buttonno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="нет"
+        android:onClick="butno"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.9"
+        tools:ignore="MissingConstraints"/>
 
     <ImageView
         android:id="@+id/icecream"

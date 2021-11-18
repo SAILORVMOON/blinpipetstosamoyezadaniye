@@ -4,12 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-public class EndActivity extends AppCompatActivity implements OnClickListener{
+public class EndActivity extends AppCompatActivity{
 
     Button buttonyes = findViewById(R.id.buttonyes);
     Button buttonno = findViewById(R.id.buttonno);
@@ -22,8 +20,6 @@ public class EndActivity extends AppCompatActivity implements OnClickListener{
         ImageView goodend = findViewById(R.id.goodend);
         ImageView verygoodend = findViewById(R.id.verygoodend);
         ImageView veryverybadway = findViewById(R.id.veryverybadway);
-        buttonno.setOnClickListener(this);
-        buttonyes.setOnClickListener(this);
         int sum = MainActivity.res1 + MainActivity2.res2 + MainActivity3.res3 + MainActivity4.res4t + MainActivity4.res4q;
         if (sum == 6){
             verygoodend.setVisibility(View.VISIBLE);
@@ -39,24 +35,16 @@ public class EndActivity extends AppCompatActivity implements OnClickListener{
         }
     }
 
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.buttonyes:
-                buttonno.setVisibility(View.GONE);
-                buttonyes.setVisibility(View.GONE);
-                imgicecrm.setVisibility(View.VISIBLE);
-                end.setText("наслаждайтесь последний мороженное\nи ждите свой судный день");
-                break;
-            case R.id.buttonno:
-                buttonno.setVisibility(View.GONE);
-                buttonyes.setVisibility(View.GONE);
-                imgicecrm.setVisibility(View.VISIBLE);
-                end.setText("как хотите\nа теперь ждите своя смерть");
-                break;
-            default:
-                break;
-        }
+    public void butyes(View view){
+        buttonno.setVisibility(View.GONE);
+        buttonyes.setVisibility(View.GONE);
+        imgicecrm.setVisibility(View.VISIBLE);
+        end.setText("наслаждайтесь последний мороженное\nи ждите свой судный день");
+    }
+    public void butno(View view){
+        buttonno.setVisibility(View.GONE);
+        buttonyes.setVisibility(View.GONE);
+        imgicecrm.setVisibility(View.VISIBLE);
+        end.setText("как хотите\nа теперь ждите своя смерть");
     }
 }
