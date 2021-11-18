@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnActTwo:
-                EditText editf = (EditText) findViewById(R.id.fname);
+                EditText editf = findViewById(R.id.fname);
                 towowfnames = editf.getText().toString();
 
-                EditText edits = (EditText) findViewById(R.id.sname);
+                EditText edits = findViewById(R.id.sname);
                 towowsnames = edits.getText().toString();
 
                 if(towowfnames.equals("") || towowsnames.equals("")){

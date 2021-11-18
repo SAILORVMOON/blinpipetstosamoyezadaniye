@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
         }
     }
     public void bebrapartia(View view){
-        if(check==false) {
+        if(!check) {
             Toast.makeText(this, "нажмать ещё раз и получать смачную бебрятину от партии", Toast.LENGTH_LONG).show();
             check = true;
         }else{
@@ -54,7 +54,7 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnActThree:
-                EditText xina = (EditText) findViewById(R.id.xina);
+                EditText xina = findViewById(R.id.xina);
                 String xinas = xina.getText().toString();
                 if(xinas.equals("John Xina")) {
                     res2 = 1;
