@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-public class Final extends AppCompatActivity implements View.OnClickListener {
+public class Final extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,25 +32,5 @@ public class Final extends AppCompatActivity implements View.OnClickListener {
             tekst.setText("вы очень разозлить партия\nхотите попробовать последнее мороженное в жизни");
         }
 
-    }
-
-    @Override
-    public void onClick(View v) {
-        Button butyes = findViewById(R.id.butyes);
-        butyes.setOnClickListener(this);
-        Button butno = findViewById(R.id.butno);
-        butno.setOnClickListener(this);
-        ImageView imageView4 = findViewById(R.id.imageView4);
-        TextView tekst = findViewById(R.id.tekst);
-        switch (v.getId()) {
-            case R.id.butyes:
-                tekst.setText("наслаждайтесь свой последний мороженное\nждите свой судный день");
-                imageView4.setVisibility(View.VISIBLE);
-                break;
-            case R.id.butno:
-                tekst.setText("ждите свой судный день");
-            default:
-                break;
-        }
     }
 }
