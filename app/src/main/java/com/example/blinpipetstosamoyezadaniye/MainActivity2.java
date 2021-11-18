@@ -41,10 +41,10 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
     }
     public void bebrapartia(View view){
         if(!check) {
-            Toast.makeText(this, "нажмать ещё раз и получать смачную бебрятину от партии", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "НАЖИМАТЬ ЕЩЁ РАЗ И ПОЛУЧАТЬ СМАЧНУЮ БЕБРЯТИНУ ОТ ПАРТИИ", Toast.LENGTH_LONG).show();
             check = true;
         }else{
-            Toast.makeText(this, "партия вас надурить но давать ответ John Xina", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "ПАРТИЯ ВАС НАДУРИТЬ НО ДАВАТЬ ОТВЕТ John Xina", Toast.LENGTH_LONG).show();
         }
     }
 

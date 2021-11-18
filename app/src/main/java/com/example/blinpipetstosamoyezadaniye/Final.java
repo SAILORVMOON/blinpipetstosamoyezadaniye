@@ -23,13 +23,13 @@ public class Final extends AppCompatActivity{
         TextView tekst = findViewById(R.id.tekst);
         if (sum==6) {
             verygood.setVisibility(View.VISIBLE);
-            tekst.setText("вы очень радовать партия");
+            tekst.setText(MainActivity.towowfnames + MainActivity.towowsnames +"ВЫ ОЧЕНЬ РАДОВАТЬ ПАРТИЯ");
         }else if (sum==5 || sum==4) {
             good.setVisibility(View.VISIBLE);
-            tekst.setText("вы радовать партия");
+            tekst.setText(MainActivity.towowfnames + MainActivity.towowsnames +"ВЫ РАДОВАТЬ ПАРТИЯ");
         }else {
             bad.setVisibility(View.VISIBLE);
-            tekst.setText("вы очень разозлить партия\nхотите попробовать последнее мороженное в жизни");
+            tekst.setText(MainActivity.towowfnames + MainActivity.towowsnames +"ВЫ ОЧЕНЬ РАЗОЗЛИТЬ ПАРТИЯ");
         }
 
     }

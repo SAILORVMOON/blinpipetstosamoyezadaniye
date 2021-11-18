@@ -20,7 +20,7 @@
             android:id="@+id/yes1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ничего"
+            android:text="НИЧЕГО"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
 
@@ -28,7 +28,7 @@
             android:id="@+id/yes2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="совсем ничего"
+            android:text="СОВСЕМ НИЧЕГО"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="что-то"
+            android:text="ЧТО-ТО"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
 
@@ -44,7 +44,7 @@
             android:id="@+id/yes3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ничего"
+            android:text="НИЧЕГО"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
     </RadioGroup>
@@ -53,7 +53,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="что происходить в 1989 году на площади тяньаньмэнь"
+        android:textAlignment="center"
+        android:text="ЧТО ПРОИСХОДИТЬ В 1989ГОДУ НА ПЛОЩАДИ ТЯНЬАНЬМЭНЬ"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,16 +66,15 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.677">
+        app:layout_constraintVertical_bias="0.605">
 
         <RadioButton
             android:id="@+id/tankno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="нет"
+            android:text="НЕТ"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
 
@@ -82,7 +82,7 @@
             android:id="@+id/tankyes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="да"
+            android:text="ДА"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="88dp" />
     </RadioGroup>
@@ -91,7 +91,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="вы раньше видеть этот картинка?"
+        android:text="ВЫ РАНЬШЕ ВИДЕТЬ ЭТОТ КАРТИНКА?"
         app:layout_constraintBottom_toTopOf="@+id/radioGrouptank"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,9 +104,11 @@
         android:layout_height="150dp"
         app:layout_constraintBottom_toTopOf="@+id/radioGrouptank"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/tank"/>
+        app:layout_constraintVertical_bias="0.612"
+        app:srcCompat="@drawable/tank" />
 
     <ImageView
         android:id="@+id/movegood4"
@@ -146,9 +148,11 @@
         android:id="@+id/btnToEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="to end"
+        android:text="ПОЛУЧИТЬ ИТОГИ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGrouptank" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

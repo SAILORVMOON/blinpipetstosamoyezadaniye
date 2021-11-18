@@ -10,24 +10,25 @@
         android:id="@+id/btnActThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Activity Three"
+        android:text="СЛЕДУЮЩИЙ ВОПРОС"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/bebrapartia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="bebrapartia"
-        android:text="получить бебру от партии"
+        android:text="ПОЛУЧИТЬ БЕБРУ ОТ ПАРТИИ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <ImageView
         android:id="@+id/movegood2"
@@ -68,7 +69,7 @@
         android:id="@+id/xina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="aqswdefrgtyh"
+        android:hint="ОТВЕТ"
         app:layout_constraintBottom_toTopOf="@+id/btnActThree"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -81,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="вы называть имя этот великий правитель и вас не ждать расстрел"
+        android:text="ВЫ НАЗЫВАТЬ ИМЯ ЭТОТ ВЕЛИКИЙ ПРАВИТЕЛЬ И ВАС НЕ ЖДАТЬ РАССТРЕЛ"
         app:layout_constraintBottom_toTopOf="@+id/xina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

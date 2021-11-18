@@ -10,7 +10,7 @@
         android:id="@+id/fname"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:hint="имя"
+        android:hint="ИМЯ"
         app:layout_constraintBottom_toTopOf="@+id/btnActTwo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,7 +23,7 @@
         android:id="@+id/sname"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:hint="фамилия"
+        android:hint="ФАМИЛИЯ"
         app:layout_constraintBottom_toTopOf="@+id/btnActTwo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -35,13 +35,13 @@
         android:id="@+id/btnActTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Activity Two"
+        android:text="ВПЕРЁД"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textView"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:text="вы отдавать партия своя фамилия и имя и получать бонус"
+        android:text="ВЫ ОТДАВАТЬ ПАРТИЯ СВОЯ ФАМИЛИЯ И ИМЯ И ПОЛУЧАТЬ БОНУС"
         app:layout_constraintBottom_toTopOf="@+id/fname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
