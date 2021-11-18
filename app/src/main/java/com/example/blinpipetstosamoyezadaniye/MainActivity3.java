@@ -2,19 +2,17 @@ package com.example.blinpipetstosamoyezadaniye;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-public class MainActivity3 extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity3 extends AppCompatActivity implements OnClickListener {
 
     ImageView movegood, movebad;
     public static int res3;
