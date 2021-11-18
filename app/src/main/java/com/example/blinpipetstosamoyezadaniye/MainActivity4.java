@@ -64,7 +64,7 @@ public class MainActivity4 extends AppCompatActivity implements OnClickListener 
                     res4t = 0;
                 }
 
-                Intent intent = new Intent(this, EndActivity.class);
+                Intent intent = new Intent(this, Final.class);
                 startActivity(intent);
                 break;
             default:

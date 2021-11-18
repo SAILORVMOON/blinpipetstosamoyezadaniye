@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Blinpipetstosamoyezadaniye">
         <activity
-            android:name=".EndActivity"
+            android:name=".Final"
             android:exported="false" />
         <activity
             android:name=".MainActivity4"

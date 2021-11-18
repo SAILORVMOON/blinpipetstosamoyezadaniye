@@ -4,90 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EndActivity">
+    tools:context=".Final">
 
     <ImageView
-        android:id="@+id/goodend"
-        android:layout_width="match_parent"
-        android:layout_height="270dp"
+        android:id="@+id/imageView4"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/goodend"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.728"
+        app:srcCompat="@drawable/ice_cream" />
+
     <ImageView
-        android:id="@+id/verygoodend"
-        android:layout_width="match_parent"
-        android:layout_height="290dp"
+        android:id="@+id/imageView5"
+        android:layout_width="411dp"
+        android:layout_height="256dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/verygoodend"
-        tools:layout_editor_absoluteX="0dp"
-        />
+        app:srcCompat="@drawable/goodend" />
+
     <ImageView
-        android:id="@+id/veryverybadway"
-        android:layout_width="match_parent"
-        android:layout_height="320dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView6"
+        android:layout_width="411dp"
+        android:layout_height="256dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/verygoodend" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="411dp"
+        android:layout_height="256dp"
         android:visibility="gone"
-        app:srcCompat="@drawable/veryverybadway"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/veryverybadway" />
 
     <TextView
-        android:id="@+id/endtext"
+        android:id="@+id/tekst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <Button
-        android:id="@+id/buttonyes"
+        android:id="@+id/butyes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="да"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone"
-        android:onClick="butyes"
-        app:layout_constraintVertical_bias="0.9"
-        tools:ignore="MissingConstraints"/>
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
-        android:id="@+id/buttonno"
+        android:id="@+id/butno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="нет"
-        android:onClick="butno"
-        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9"
-        tools:ignore="MissingConstraints"/>
-
-    <ImageView
-        android:id="@+id/icecream"
-        android:layout_width="328dp"
-        android:layout_height="359dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ice_cream" />
+        app:layout_constraintVertical_bias="0.9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -106,8 +106,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/tank"
-        tools:ignore="MissingConstraints"/>
+        app:srcCompat="@drawable/tank"/>
 
     <ImageView
         android:id="@+id/movegood4"
@@ -119,8 +118,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/goodway"
-        android:visibility="gone"
-        tools:ignore="MissingConstraints"/>
+        android:visibility="gone"/>
     <ImageView
         android:id="@+id/movegood42"
         android:layout_width="200dp"
@@ -131,8 +129,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/goodend"
-        android:visibility="gone"
-        tools:ignore="MissingConstraints"/>
+        android:visibility="gone"/>
     <ImageView
         android:id="@+id/movebad4"
         android:layout_width="200dp"
@@ -143,8 +140,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/badway"
-        android:visibility="gone"
-        tools:ignore="MissingConstraints"/>
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/btnToEnd"
